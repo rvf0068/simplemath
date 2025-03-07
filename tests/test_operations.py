@@ -17,7 +17,7 @@ class TestOperations(unittest.TestCase):
     def test_script_execution(self):
         """Test running test_operations.py directly."""
         result = subprocess.run(
-            ["python", "tests/test_operations.py"],
+            ["python", "-m", "unittest", "tests/test_operations.py"],
             capture_output=True,
             text=True
         )
