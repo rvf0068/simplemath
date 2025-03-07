@@ -38,10 +38,8 @@ jobs:
           coverage report
           coverage xml
 
-      - name: Upload coverage report
-        uses: codecov/codecov-action@v4
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v5
         with:
-          files: coverage.xml
-          fail_ci_if_error: true
-          verbose: true  #
-          token: $${{ secrets.39ea4a5e-1183-4d52-8411-203cd41284a7}}
+          token: ${{ secrets.CODECOV_TOKEN }}
+          slug: rvf0068/simplemath
