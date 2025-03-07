@@ -27,3 +27,6 @@ jobs:
 
       - name: Run tests
         run: python -m unittest discover tests
+
+      - name: Run Flake8 Linter
+        run: pip install flake8 && flake8 simplemath
