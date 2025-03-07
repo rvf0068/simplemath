@@ -1,8 +1,24 @@
 def add(a, b):
-    """Return the sum of two numbers."""
+    """Adds two numbers.
+
+    Args:
+        a (int, float): First number.
+        b (int, float): Second number.
+
+    Returns:
+        int, float: The sum of `a` and `b`.
+    """
     return a + b
 
 
 def subtract(a, b):
-    """Return the difference of two numbers."""
+    """Subtracts one number from another.
+
+    Args:
+        a (int, float): First number.
+        b (int, float): Second number.
+
+    Returns:
+        int, float: The result of `a - b`.
+    """
     return a - b
