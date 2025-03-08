@@ -10,7 +10,7 @@ Welcome to simplemath's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   simplemath  
+   Module Reference <api/modules>
 
 Indices and tables
 ==================
